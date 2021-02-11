@@ -10,10 +10,10 @@
   <form method="POST">
     <label>Please choose Heads or Tails: <br></label>
 
-    <input type="radio" name="ht" value="heads">
+    <input id="heads" type="radio" name="ht" value="heads">
     <label for="heads">Heads</label>
 
-    <input type="radio" name="ht" value="tails">
+    <input id="tails" type="radio" name="ht" value="tails">
     <label for="tails">Tails</label>
 
     <input type="submit" name="submit" value="Submit">
@@ -31,10 +31,8 @@ if (isset($_POST['submit'])) {
 
   $computer == $input ? $ans = 'You win!' : $ans = 'You lose!';
 
-  echo "You chose $input and the toss was $toss[$randomInt]";
+  echo "You chose $input and the toss was $computer";
   echo "<br> $ans";
-
-
 }
 
 ?> 

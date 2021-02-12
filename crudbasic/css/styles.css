@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Lato', 'sans-serif';
+  line-height: 150%;
+}
+
+.col-md-6 {
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  /* border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px; */
+}
+
+h1 {
+  text-align: center;
+  word-spacing: 15px;
+}
+
+.bg-set {
+  background: #ffeeee; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ddefbb, #ffeeee); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom right,
+    #eff7e1,
+    #f8dc81
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1,
+.form-label {
+  color: #214151;
+}
+
+.btn {
+  background-color: #214151;
+  color: #eff7e1;
+  transition: all 0.6s;
+}
+
+.btn:hover,
+.btn:active,
+.btn:visited {
+  background-color: #395f73;
+}
+
+.right_side {
+  width: 80%;
+  margin: auto;
+}
+
+.stuff {
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
